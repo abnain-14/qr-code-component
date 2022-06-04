@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;500;600&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  /*CSS FOR MOBILE DEVICE*/
+  @media only screen and (max-width: 550px) {
+    body{
+      background-color: hsl(212, 45%, 89%);
+      font-size: 15px;
+      font-family: 'Outfit',sans-serif;
+    }
+  #par1{
+    font-weight: 700;
+    padding-bottom: 15px;
+    font-size: 17px;
+    width: 100%;
+  }
+  #par2{
+    font-weight: 300;
+    font-size: 15px;
+    width: 90%;
+    margin-left: 4.9%;
+  }
+  .img{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .qr-code{
+      width: 90%;
+      height: 90%;
+      border-radius: 10px;
+  }
+  .main{
+      background-color: white;
+      padding: 4% 0% 15% 0%;
+      border-radius: 10px;
+      width: 80%;
+      margin: 20% 0% 0% 10%;
+  }
+  .some-words{
+    text-align: center;
+  }
+  }
+  /*CSS FOR MOBILE DEVICE*/
+  
+  /*CSS FOR DESKTOP*/
+  @media only screen and (min-width: 550px) {
+    body{
+      background-color: hsl(212, 45%, 89%);
+      font-size: 20px;
+      font-family: 'Outfit',sans-serif;
+    }
+    #par1{
+    font-weight: 700;
+    padding-bottom: 15px;
+    font-size: 17px;
+    width: 90%;
+  }
+  #par2{
+    font-weight: 300;
+    font-size: 15px;
+    width: 90%;
+  }  
+  .img{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .qr-code{
+      width: 90%;
+      height: 90%;
+      border-radius: 10px;
+  }
+  .main{
+      background-color: white;
+      padding: 1% 0% 5% 0%;
+      border-radius: 10px;
+      width: 20%;
+      margin: 9% 0 0 40%;
+  }
+  .some-words{
+    text-align: center;
+    margin-left: 6%;
+  }
+  }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="img">
+     <img src="images/image-qr-code.png" class="qr-code" alt="">
+    </div>
+    <div class="some-words">
+      <div id="par1">Improve your front-end skills by building projects</div>
+      <div id="par2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+    </div>
+  </div>
+</body>
+
+</html>
+<!--Improve your front-end skills by building projects
+
+Scan the QR code to visit Frontend Mentor and take your coding skills to the next level-->
